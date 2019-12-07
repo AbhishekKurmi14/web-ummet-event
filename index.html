@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Title </title>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        html,
+        body {
+            margin: 0px
+        }
+
+        .box {
+            position: relative
+        }
+
+        .box1 {
+            width: 30%;
+            float: left;
+            background-color: white
+        }
+
+        .box2 {
+            width: 90%;
+            margin: auto;
+            overflow: auto;
+        }
+
+        .meet {
+            height: 50px;
+            width: 110px;
+            float: left;
+            background-color: #3b1d82;
+            margin: 20px 350px 20px 90px
+        }
+
+        .sbox1 {
+            width: 70%;
+            float: right;
+            background-color: white
+        }
+
+        .sbox2 {
+            width: 90%;
+            margin: auto;
+            overflow: auto
+        }
+
+        .menu {
+            height: 25px;
+            width: 70px;
+            float: left;
+            background-color: #dc3545;
+            margin: 45px 30px 20px 20px
+        }
+
+        .menu1 {
+            height: 25px;
+            width: 70px;
+            float: left;
+            background-color: black;
+            margin: 45px 30px 20px 10px
+        }
+
+        .menu2 {
+            height: 25px;
+            width: 90px;
+            float: left;
+            background-color: #3b1d82;
+            margin: 45px 30px 20px 10px
+        }
+
+        .box3 {
+            background-color: #3b1d82
+        }
+
+        .box4 {
+            width: 70%;
+            margin: auto;
+            overflow: auto;
+            padding: 220px
+        }
+
+        .mic {
+            height: 50px;
+            width: 60px;
+            background-color: white;
+            margin: auto
+        }
+
+        .city {
+            height: 40px;
+            width: 350px;
+            background-color: white;
+            margin: 30px auto
+        }
+
+        .confrence {
+            height: 90px;
+            width: 500px;
+            background-color: white;
+            margin: 40px auto
+        }
+
+        .ticket {
+            height: 40px;
+            width: 150px;
+            background-color: #ea0763;
+            margin: auto
+        }
+
+        .box5 {
+            background-color: #f0e9ff;
+            padding: 80px;
+            overflow: auto
+        }
+
+        .box7 {
+            width: 50%;
+            float: left
+        }
+
+        .box6 {
+            width: 90%;
+            overflow: auto;
+            margin: auto;
+
+        }
+
+        .design {
+            height: 50px;
+            width: 250px;
+            background-color: #3b1d82;
+            margin: 35px 0px;
+        }
+
+        .world {
+            height: 30px;
+            width: 350px;
+            background-color: #dc3545;
+            margin: 35px 0px;
+        }
+
+        .paragraph {
+            height: 80px;
+            width: 600px;
+            background-color: #999;
+            margin: 35px 0px;
+        }
+
+        .box8 {
+            width: 40%;
+            float: right
+        }
+
+        .box9 {
+            width: 90%;
+            margin: auto;
+            overflow: auto
+        }
+
+        .days {
+            height: 100px;
+            width: 100px;
+            background-color: #007bff;
+            margin: 35px 10px;
+            float: left
+        }
+
+        .hours {
+            height: 100px;
+            width: 100px;
+            background-color: #ffc107;
+            margin: 35px 15px;
+            float: left
+        }
+
+        .minutes {
+            height: 100px;
+            width: 100px;
+            background-color: #ea0763;
+            margin: 35px 15px;
+            float: left
+        }
+
+        .january {
+            height: 30px;
+            width: 350px;
+            background-color: #dc3545;
+            float: left;
+            margin: 10px
+        }
+
+        .ticket1 {
+            height: 25px;
+            width: 100px;
+            float: left;
+            background-color: #3b1d82;
+            margin: 10px 140px
+        }
+
+        .box10 {}
+
+        .box11 {
+            width: 85%;
+            margin: auto;
+            overflow: auto;
+            padding: 100px
+        }
+
+        .join {
+            height: 20px;
+            width: 120px;
+            background-color: #999;
+            margin: auto
+        }
+
+        .why {
+            height: 50px;
+            width: 250px;
+            background-color: #3b1d82;
+            margin: 20px auto;
+        }
+
+        .curve {
+            height: 20px;
+            width: 80px;
+            background-color: #dc3545;
+            margin: 25px auto
+        }
+
+        .box12 {
+            width: 33.33%;
+            float: left
+        }
+
+        .box13 {
+            width: 90%;
+            margin: auto;
+            overflow: auto
+        }
+
+        .cup {
+            height: 90px;
+            width: 90px;
+            background-color: #dee2e6;
+            margin: 20px auto
+        }
+
+        .service {
+            height: 30px;
+            width: 170px;
+            background-color: black;
+            margin: 20px auto
+        }
+
+        .room {
+            height: 80px;
+            width: 270px;
+            background-color: #999;
+            margin: 20px auto
+        }
+
+        .box14 {
+            width: 50%;
+            float: right;
+        }
+
+        .more {
+            width: 150px;
+            height: 50px;
+            background-color: black;
+            margin: 50px 30px;
+            padding: 10px
+        }
+
+        .learn {
+            width: 130px;
+            height: 30px;
+            background-color: white;
+        }
+
+        .box15 {
+            width: 50%;
+            float: left
+        }
+
+        .buy {
+            width: 150px;
+            height: 50px;
+            background-color: black;
+            margin: 50px 0px 0px auto;
+            padding: 10px
+        }
+
+        .buy1 {
+            width: 130px;
+            height: 30px;
+            background-color: white;
+        }
+
+        .box16 {
+            background-color: #007bff;
+            padding: 90px
+        }
+
+        .box17 {
+            width: 90%;
+            margin: auto;
+            overflow: auto
+        }
+
+        .event {
+            height: 20px;
+            width: 120px;
+            background-color: white;
+            margin: auto
+        }
+
+        .the {
+            height: 50px;
+            width: 250px;
+            background-color: white;
+            margin: 20px auto;
+        }
+
+        .item {
+            padding: 20px;
+
+        }
+
+        .parent {
+            height: 300px;
+            width: 30%;
+            background-color: white;
+            margin: 10px 10px 10px 10px;
+            overflow: auto;
+            float: left
+        }
+
+        .name {
+            width: 320px;
+            height: 260px;
+            background-color: #999;
+            padding: 10px
+        }
+
+        .box18 {
+            background-color: #eee
+        }
+
+        .box21 {
+            width: 25%;
+            float: left
+        }
+
+        .box19 {
+            width: 70%;
+            margin: auto;
+            overflow: auto;
+            padding: 90px;
+        }
+
+        .box20 {
+            width: 150px;
+            height: 80px;
+            background-color: white;
+
+        }
+
+        .box22 {
+            width: 25%;
+            float: left
+        }
+
+        .box23 {
+            width: 150px;
+            height: 80px;
+            background-color: #3b1d82;
+        }
+
+        .box24 {
+            width: 75%;
+            margin: auto;
+            overflow: auto;
+        }
+
+        .box25 {
+            height: 200px;
+            width: 200px;
+            background-color: #3b1d82;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1">
+            <div class="box2">
+                <div class="meet"></div>
+            </div>
+        </div>
+        <div class="sbox1">
+            <div class="sbox2">
+                <div class="menu"></div>
+                <div class="menu1"></div>
+                <div class="menu1"></div>
+                <div class="menu1"></div>
+                <div class="menu1"></div>
+                <div class="menu1"></div>
+                <div class="menu2"></div>
+            </div>
+        </div>
+        <div class="box3">
+            <div class="box4">
+                <div class="mic"></div>
+                <div class="city"></div>
+                <div class="confrence"></div>
+                <div class="ticket"></div>
+            </div>
+        </div>
+    </div>
+    <div class="box5">
+        <div class="box7">
+            <div class="box6">
+                <div class="design"></div>
+                <div class="world"></div>
+                <div class="paragraph"></div>
+            </div>
+        </div>
+        <div class="box8">
+            <div class="box9">
+                <div class="days"></div>
+                <div class="hours"></div>
+                <div class="minutes"></div>
+                <div class="january"></div>
+                <div class="ticket1"></div>
+            </div>
+        </div>
+    </div>
+    <div class="box10">
+        <div class="box11">
+            <div class="join"></div>
+            <div class="why"></div>
+            <div class="curve"></div>
+            <div class="box12">
+                <div class="box13">
+                    <div class="cup"></div>
+                    <div class="service"></div>
+                    <div class="room"></div>
+                </div>
+            </div>
+            <div class="box12">
+                <div class="box13">
+                    <div class="cup"></div>
+                    <div class="service"></div>
+                    <div class="room"></div>
+                </div>
+            </div>
+            <div class="box12">
+                <div class="box13">
+                    <div class="cup"></div>
+                    <div class="service"></div>
+                    <div class="room"></div>
+                </div>
+            </div>
+            <div class="box14">
+                <div class="more">
+                    <div class="learn"></div>
+                </div>
+            </div>
+            <div class="box15">
+                <div class="buy">
+                    <div class="buy1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box16">
+        <div class="box17">
+            <div class="event"></div>
+            <div class="the"></div>
+            <div class="curve"></div>
+            <div class="parent">
+                <div class="item">
+                    <div class="name">
+                    </div>
+                </div>
+            </div>
+            <div class="parent">
+                <div class="item">
+                    <div class="name"></div>
+                </div>
+            </div>
+            <div class="parent">
+                <div class="item">
+                    <div class="name"></div>
+                </div>
+            </div>
+            <div class="parent">
+                <div class="item">
+                    <div class="name"></div>
+                </div>
+            </div>
+            <div class="parent">
+                <div class="item">
+                    <div class="name"></div>
+                </div>
+            </div>
+            <div class="parent">
+                <div class="item">
+                    <div class="name"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box18">
+        <div class="box19">
+            <div class="join"></div>
+            <div class="why"></div>
+            <div class="curve"></div>
+            <div class="box21">
+                <div class="box20"></div>
+            </div>
+            <div class="box22">
+                <div class="box23"></div>
+            </div>
+            <div class="box21">
+                <div class="box20"></div>
+            </div>
+            <div class="box21">
+                <div class="box20"></div>
+            </div>
+        </div>
+        <div class="box24">
+            <div class="box25"></div>
+        </div>
+    </div>
+</body></html>
